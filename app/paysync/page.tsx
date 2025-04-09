@@ -6,10 +6,10 @@ import { ChevronRight } from "lucide-react";
 export default async function Page() {
   return (
     <div className="flex justify-center items-center h-dvh">
-      <div className="justify-items-center space-y-4">
-        <div className="text-2xl">Welcome to Payroll Management!</div>
+      <div className="justify-items-center space-y-8">
+        <div className="text-2xl">Welcome to PaySync!</div>
         <Button asChild>
-          <Link href="/dashboard">
+          <Link href="/payroll-management/dashboard">
             Go to Dashboard
             <ChevronRight />
           </Link>
